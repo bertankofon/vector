@@ -8,7 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { Alert, AlertDescription } from "@/components/ui/alert"
-import { Loader2, Search, Database, Atom, FlaskConical } from "lucide-react"
+import { Loader2, Search, Database, FlaskConical } from "lucide-react"
 
 export default function MaterialsProjectApp() {
   const [apiKey, setApiKey] = useState("")
@@ -68,12 +68,37 @@ export default function MaterialsProjectApp() {
         {/* Header */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <Atom className="h-8 w-8 text-blue-600" />
-            <h1 className="text-4xl font-bold text-gray-900">Materials Project Explorer</h1>
+            <img src="/vector-logo-new.png" alt="Vector" className="h-24" />
           </div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Access and explore materials science data from the Materials Project database. Search for materials, analyze
-            properties, and discover new compounds.
+            powered by{" "}
+            <a
+              href="https://api.materialsproject.org/docs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-teal-600 hover:text-teal-700 hover:underline"
+            >
+              Materials Project API
+            </a>
+            {" • "}
+            built by{" "}
+            <a
+              href="https://www.linkedin.com/in/yusuf-ziya-demirba%C5%9F-0a94271b7/?originalSubdomain=tr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-gray-700 hover:text-gray-900 hover:underline"
+            >
+              Y. Z. Demirbas
+            </a>
+            {", "}
+            <a
+              href="https://www.linkedin.com/in/bertankofon/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-gray-700 hover:text-gray-900 hover:underline"
+            >
+              B. Kofon
+            </a>
           </p>
         </div>
 
@@ -245,7 +270,7 @@ export default function MaterialsProjectApp() {
 
         {/* Footer */}
         <div className="text-center mt-12 text-gray-500">
-          <p>Powered by the Materials Project API • Built with Next.js</p>
+          <p>Vector • Powered by the Materials Project API</p>
         </div>
       </div>
     </div>

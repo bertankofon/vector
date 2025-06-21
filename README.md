@@ -1,30 +1,54 @@
-# Next.js api integration
+# Vector
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A web interface for the Materials Project API that makes it easy to search and explore materials science data.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/bertankofons-projects/v0-next-js-api-integration)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/n69c25LiUFF)
+## What it does
 
-## Overview
+Vector connects to the Materials Project database and lets you:
+- Search for materials by chemical formula, material ID, or chemical system
+- View material properties like band gap, formation energy, and crystal structure
+- Access thousands of materials from the Materials Project database
+- Get data in a clean, easy-to-use interface
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Why we built it
 
-## Deployment
+The Materials Project has tons of useful data, but their API can be hard to use for people who aren't comfortable with code. Vector gives researchers and students a simple web interface to access this data without writing any code.
 
-Your project is live at:
+## Tech Stack
 
-**[https://vercel.com/bertankofons-projects/v0-next-js-api-integration](https://vercel.com/bertankofons-projects/v0-next-js-api-integration)**
+- **Frontend**: Next.js 15 with React
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **API**: Materials Project REST API
+- **Language**: TypeScript
+- **Deployment**: Vercel (recommended)
 
-## Build your app
+## Getting Started
 
-Continue building your app on:
+1. Clone this repository
+2. Install dependencies: \`npm install\`
+3. Run the development server: \`npm run dev\`
+4. Get your free API key from [materialsproject.org](https://materialsproject.org)
+5. Enter your API key in the app and start searching
 
-**[https://v0.dev/chat/projects/n69c25LiUFF](https://v0.dev/chat/projects/n69c25LiUFF)**
+## Current Features
 
-## How It Works
+- Material search by formula, ID, or chemical system
+- Clean results display with key properties
+- Responsive design that works on all devices
+- Error handling and loading states
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Planned Features
+
+- Detailed material pages with structure visualization
+- Advanced filtering options
+- Data export (CSV, JSON)
+- Material comparison tools
+- Favorites and saved searches
+
+## Contributing
+
+This is an open project. Feel free to submit issues or pull requests.
+
+## License
+
+MIT License - see LICENSE file for details.
