@@ -20,7 +20,7 @@ The Materials Project has tons of useful data, but their API can be hard to use 
 - **Styling**: Tailwind CSS + shadcn/ui components
 - **API**: Materials Project REST API
 - **Language**: TypeScript
-- **Deployment**: Vercel (recommended)
+- **Deployment**: Vercel
 
 ## Getting Started
 
@@ -39,6 +39,7 @@ The Materials Project has tons of useful data, but their API can be hard to use 
 
 ## Planned Features
 
+- AI integration with Chatbot
 - Detailed material pages with structure visualization
 - Advanced filtering options
 - Data export (CSV, JSON)
