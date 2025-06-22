@@ -42,7 +42,6 @@ The Materials Project has tons of useful data, but their API can be hard to use 
 - AI integration with Chatbot
 - Detailed material pages with structure visualization
 - Advanced filtering options
-- Data export (CSV, JSON)
 - Material comparison tools
 - Favorites and saved searches
 
